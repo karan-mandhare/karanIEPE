@@ -1,0 +1,14 @@
+* {
+    background-color: white;
+    color: black;
+}
+
+#main .head {
+    text-align: center;
+}
+
+.signup {
+    font-family: "Comic Sans MS", cursive;
+    margin: auto;
+    padding: 12px;
+}

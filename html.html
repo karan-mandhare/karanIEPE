@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IEPE</title>
+    <link rel="stylesheet" href="css.css" />
+    <script type="text/javascript" src="js.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <div class="head">
+            <h1>STUDENT EXAMINATION FORM</h1>
+        </div>
+        <div class="signup">
+            <table cellspacing="2" align="center" cellpadding="8" border="0">
+                <tr>
+                    <td align="right"><label for="name">Enter Name : </label></td>
+                    <td><input type="text" name="name" id="name" placeholder="enter name" /></td>
+                </tr>
+
+                <tr>
+                    <td align="right"><label for="email">Enter Email Id : </label></td>
+                    <td><input type="email" name="email" id="email" placeholder="enter mail" /></td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="password">Enter Password : </label>
+                    </td>
+                    <td><input type="password" name="password" id="password" placeholder="enter password" /></td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="roll">Roll No. : </label>
+                    </td>
+                    <td><input type="number" name="roll" id="roll" placeholder="enter roll no" /></td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="section">Section : </label>
+                    </td>
+                    <td><input type="text" name="section" id="section" placeholder="enter section" /></td>
+                </tr>
+                <tr>
+                    <td align="right">Gender :</td>
+                    <td><label for="gender">Male<input type="radio" name="male" id="gender"></label><label for="gender">Female<input type="radio" name="male" id="gender"></label></td>
+                </tr>
+                <tr>
+                    <td align="right">Branch : </td>
+                    <td><select name="branch" id="branch">
+                        <option value="branch">SELECT</option>
+                        <option value="branch">AI</option>
+                        <option value="branch">CSE</option>
+                        <option value="branch">MECH</option>
+                        <option value="branch">CIVIL</option>
+                        <option value="branch">DS</option>
+                    </select></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><button id="button1" type="submit" onclick="myFunction()">Submit</button>
+                        <p id="demo"></p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
